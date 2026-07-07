@@ -1,25 +1,30 @@
 {
-  "empresa": {
-    "nome": "BEJ Group",
-    "slogan": "Gráfica & Editora Premium",
-    "cidade": "Campo Bom",
-    "estado": "RS",
-    "telefone": "(51) 9XXXX-XXXX",
-    "whatsapp": "55519XXXXXXXX",
-    "email": "contato@bejgroup.com.br",
-    "horario_semana": "Seg–Sex: 08h–18h",
-    "horario_sabado": "Sáb: 08h–12h",
-    "fundacao": "2019"
-  },
-  "hero": {
-    "label": "Gráfica & Editora Premium · Porto Alegre, RS",
-    "titulo_linha1": "IMPRIMIMOS",
-    "titulo_linha2": "QUALIDADE.",
-    "titulo_gold1": "ENTREGAMOS",
-    "titulo_gold2": "EXCELÊNCIA.",
-    "titulo_dim": "em cada projeto.",
-    "subtitulo": "Gráfica & Editora premium para marcas que valorizam cada detalhe — da arte-final ao acabamento que impressiona."
-  },
+  "processo": [
+    {
+      "titulo": "Briefing",
+      "texto": "Entendemos suas necessidades e objetivos do projeto com atenção total."
+    },
+    {
+      "titulo": "Criação",
+      "texto": "Desenvolvemos o layout e a solução ideal para o seu objetivo."
+    },
+    {
+      "titulo": "Aprovação",
+      "texto": "Você analisa e aprova cada detalhe antes da produção."
+    },
+    {
+      "titulo": "Produção",
+      "texto": "Impressão com tecnologia e controle rigoroso de qualidade."
+    },
+    {
+      "titulo": "Acabamento",
+      "texto": "Acabamentos especiais que valorizam e diferenciam seu material."
+    },
+    {
+      "titulo": "Entrega",
+      "texto": "Entregamos com agilidade e segurança, no prazo combinado."
+    }
+  ],
   "metricas": {
     "anos": "6",
     "projetos": "5000",
@@ -27,47 +32,40 @@
     "parceiros": "240",
     "satisfacao": "98"
   },
-  "sobre": {
-    "titulo": "Excelência que se imprime.",
-    "texto1": "Fundada em 2019, a BEJ Group nasceu com uma missão clara: unir tecnologia de ponta, criatividade e acabamento premium para transformar ideias em materiais gráficos e editoriais de alto impacto.",
-    "texto2": "Em poucos anos construímos uma reputação sólida no mercado gaúcho — mais que impressão, entregamos experiências que conectam marcas e pessoas com qualidade que se vê, se toca e se lembra.",
-    "citacao": "Cada impressão é uma declaração de intenção — feita para durar."
+  "editorial": {
+    "titulo": "Publicações que contam histórias.",
+    "texto": "Como editora, cuidamos de cada etapa da publicação do seu livro, revista ou relatório institucional — do manuscrito à distribuição, com o mesmo rigor gráfico que aplicamos em todos os nossos projetos.",
+    "livros": [
+      {
+        "categoria": "Romance",
+        "titulo": "A Travessia"
+      },
+      {
+        "categoria": "Biografia",
+        "titulo": "Memórias de Família"
+      },
+      {
+        "categoria": "Institucional",
+        "titulo": "BEJ Group — Nossa História"
+      },
+      {
+        "categoria": "Poesia",
+        "titulo": "Versos do Sul"
+      }
+    ]
   },
-  "servicos": [
-    {
-      "numero": "01",
-      "titulo": "Impressão Comercial",
-      "descricao": "Cartões, folders, catálogos, papéis timbrados e materiais institucionais com acabamento premium e entrega no prazo.",
-      "itens": ["Cartões de visita", "Folders & folhetos", "Papelaria corporativa", "Catálogos institucionais"]
-    },
-    {
-      "numero": "02",
-      "titulo": "Editorial & Publicações",
-      "descricao": "Livros, revistas, catálogos e publicações personalizadas com qualidade editorial e acabamento sofisticado.",
-      "itens": ["Diagramação & ISBN", "Revistas & periódicos", "Livros institucionais", "Relatórios anuais"]
-    },
-    {
-      "numero": "03",
-      "titulo": "Embalagens & Packaging",
-      "descricao": "Soluções criativas e estruturais que valorizam seu produto e fortalecem sua marca no ponto de venda.",
-      "itens": ["Caixas personalizadas", "Embalagens especiais", "Sacolas & envelopes", "Mockups & protótipos"]
-    },
-    {
-      "numero": "04",
-      "titulo": "Comunicação Visual",
-      "descricao": "Banners, adesivos, sinalização e materiais visuais que destacam sua marca onde ela estiver.",
-      "itens": ["Banners & totens", "Adesivos & sinalização", "Material para PDV", "Impressão digital grande formato"]
-    }
-  ],
-  "parceiros": [
-    "Grupo Serrano",
-    "RM Empreendimentos",
-    "BioNature",
-    "Beta Cosméticos",
-    "Vale Têxtil",
-    "Cantina D'Itália",
-    "Editora Pampa"
-  ],
+  "empresa": {
+    "cidade": "Novo Hamburgo",
+    "estado": "RS",
+    "telefone": "(51) 9XXXX-XXXX",
+    "whatsapp": "55519XXXXXXXX",
+    "fundacao": "2019",
+    "horario_sabado": "Sáb: 08h–12h",
+    "horario_semana": "Seg–Sex: 08h–18h",
+    "nome": "BEJ Group",
+    "email": "contato@bejgroup.com.br",
+    "slogan": "Gráfica & Editora Premium"
+  },
   "depoimentos": [
     {
       "texto": "A BEJ Group superou nossas expectativas em qualidade, prazo e atendimento. Parceiros que recomendamos sem hesitar.",
@@ -88,23 +86,101 @@
       "iniciais": "JC"
     }
   ],
-  "processo": [
-    { "titulo": "Briefing",    "texto": "Entendemos suas necessidades e objetivos do projeto com atenção total." },
-    { "titulo": "Criação",     "texto": "Desenvolvemos o layout e a solução ideal para o seu objetivo." },
-    { "titulo": "Aprovação",   "texto": "Você analisa e aprova cada detalhe antes da produção." },
-    { "titulo": "Produção",    "texto": "Impressão com tecnologia e controle rigoroso de qualidade." },
-    { "titulo": "Acabamento",  "texto": "Acabamentos especiais que valorizam e diferenciam seu material." },
-    { "titulo": "Entrega",     "texto": "Entregamos com agilidade e segurança, no prazo combinado." }
+  "parceiros": [
+    "Grupo Serrano",
+    "RM Empreendimentos",
+    "BioNature",
+    "Beta Cosméticos",
+    "Vale Têxtil",
+    "Cantina D'Itália",
+    "Editora Pampa"
   ],
-  "editorial": {
-    "titulo": "Publicações que contam histórias.",
-    "texto": "Como editora, cuidamos de cada etapa da publicação do seu livro, revista ou relatório institucional — do manuscrito à distribuição, com o mesmo rigor gráfico que aplicamos em todos os nossos projetos.",
-    "livros": [
-      { "categoria": "Romance",       "titulo": "A Travessia" },
-      { "categoria": "Biografia",     "titulo": "Memórias de Família" },
-      { "categoria": "Institucional", "titulo": "BEJ Group — Nossa História" },
-      { "categoria": "Poesia",        "titulo": "Versos do Sul" }
-    ]
+  "servicos": [
+    {
+      "numero": "01",
+      "titulo": "Impressão Comercial",
+      "descricao": "Cartões, folders, catálogos, papéis timbrados e materiais institucionais com acabamento premium e entrega no prazo.",
+      "itens": [
+        "Cartões de visita",
+        "Folders & folhetos",
+        "Papelaria corporativa",
+        "Catálogos institucionais"
+      ]
+    },
+    {
+      "numero": "02",
+      "titulo": "Editorial & Publicações",
+      "descricao": "Livros, revistas, catálogos e publicações personalizadas com qualidade editorial e acabamento sofisticado.",
+      "itens": [
+        "Diagramação & ISBN",
+        "Revistas & periódicos",
+        "Livros institucionais",
+        "Relatórios anuais"
+      ]
+    },
+    {
+      "numero": "03",
+      "titulo": "Embalagens & Packaging",
+      "descricao": "Soluções criativas e estruturais que valorizam seu produto e fortalecem sua marca no ponto de venda.",
+      "itens": [
+        "Caixas personalizadas",
+        "Embalagens especiais",
+        "Sacolas & envelopes",
+        "Mockups & protótipos"
+      ]
+    },
+    {
+      "numero": "04",
+      "titulo": "Comunicação Visual",
+      "descricao": "Banners, adesivos, sinalização e materiais visuais que destacam sua marca onde ela estiver.",
+      "itens": [
+        "Banners & totens",
+        "Adesivos & sinalização",
+        "Material para PDV",
+        "Impressão digital grande formato"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "Qual o prazo médio de produção?",
+      "resposta": "Para impressão digital, o prazo médio é de 48h a 5 dias úteis. Para impressão offset e projetos editoriais, o prazo varia entre 7 e 20 dias úteis, dependendo da complexidade e da tiragem."
+    },
+    {
+      "pergunta": "Existe quantidade mínima para impressão?",
+      "resposta": "Trabalhamos tanto com pequenas tiragens via impressão digital — a partir de 1 unidade — quanto com grandes volumes em offset, ideais para revistas, livros e catálogos."
+    },
+    {
+      "pergunta": "Quais formatos de arquivo vocês aceitam?",
+      "resposta": "Aceitamos arquivos em PDF (preferencial), AI, INDD, PSD e CDR, com no mínimo 300dpi. Caso não tenha a arte pronta, nossa equipe de design pode criá-la para você."
+    },
+    {
+      "pergunta": "Vocês ajudam na publicação de livros?",
+      "resposta": "Sim! Como editora, oferecemos suporte completo: diagramação, revisão textual, registro de ISBN, impressão e distribuição do seu livro para livrarias e eventos."
+    },
+    {
+      "pergunta": "Como funciona o orçamento?",
+      "resposta": "Basta preencher o formulário de contato com os detalhes do seu projeto — tipo de material, tiragem, formato e prazo — que nossa equipe retorna com uma proposta personalizada em até 24h."
+    },
+    {
+      "pergunta": "Quais formas de pagamento são aceitas?",
+      "resposta": "Aceitamos PIX, transferência bancária, boleto e cartão de crédito. Para projetos maiores, oferecemos condições especiais de parcelamento."
+    }
+  ],
+  "sobre": {
+    "titulo": "Excelência que se imprime.",
+    "texto1": "Fundada em 2019, a BEJ Group nasceu com uma missão clara: unir tecnologia de ponta, criatividade e acabamento premium para transformar ideias em materiais gráficos e editoriais de alto impacto.",
+    "texto2": "Em poucos anos construímos uma reputação sólida no mercado gaúcho — mais que impressão, entregamos experiências que conectam marcas e pessoas com qualidade que se vê, se toca e se lembra.",
+    "citacao": "Cada impressão é uma declaração de intenção — feita para durar."
+  },
+  "hero": {
+    "label": "Gráfica & Editora Premium · Novo Hamburgo, RS",
+    "titulo_linha1": "IMPRIMIMOS",
+    "titulo_linha2": "QUALIDADE.",
+    "titulo_gold1": "ENTREGAMOS",
+    "titulo_gold2": "EXCELÊNCIA.",
+    "titulo_dim": "em cada projeto.",
+    "subtitulo": "Gráfica & Editora premium para marcas que valorizam cada detalhe — da arte-final ao acabamento que impressiona."
   },
   "responsabilidade": [
     {
@@ -136,32 +212,6 @@
       "titulo": "Impressão Sustentável",
       "texto": "Compensamos nossas emissões de carbono através de parceria com projeto de reflorestamento de mata ciliar no Rio Grande do Sul, plantando mais de 2.000 mudas nativas por ano.",
       "tag": "Meio Ambiente"
-    }
-  ],
-  "faq": [
-    {
-      "pergunta": "Qual o prazo médio de produção?",
-      "resposta": "Para impressão digital, o prazo médio é de 48h a 5 dias úteis. Para impressão offset e projetos editoriais, o prazo varia entre 7 e 20 dias úteis, dependendo da complexidade e da tiragem."
-    },
-    {
-      "pergunta": "Existe quantidade mínima para impressão?",
-      "resposta": "Trabalhamos tanto com pequenas tiragens via impressão digital — a partir de 1 unidade — quanto com grandes volumes em offset, ideais para revistas, livros e catálogos."
-    },
-    {
-      "pergunta": "Quais formatos de arquivo vocês aceitam?",
-      "resposta": "Aceitamos arquivos em PDF (preferencial), AI, INDD, PSD e CDR, com no mínimo 300dpi. Caso não tenha a arte pronta, nossa equipe de design pode criá-la para você."
-    },
-    {
-      "pergunta": "Vocês ajudam na publicação de livros?",
-      "resposta": "Sim! Como editora, oferecemos suporte completo: diagramação, revisão textual, registro de ISBN, impressão e distribuição do seu livro para livrarias e eventos."
-    },
-    {
-      "pergunta": "Como funciona o orçamento?",
-      "resposta": "Basta preencher o formulário de contato com os detalhes do seu projeto — tipo de material, tiragem, formato e prazo — que nossa equipe retorna com uma proposta personalizada em até 24h."
-    },
-    {
-      "pergunta": "Quais formas de pagamento são aceitas?",
-      "resposta": "Aceitamos PIX, transferência bancária, boleto e cartão de crédito. Para projetos maiores, oferecemos condições especiais de parcelamento."
     }
   ]
 }
