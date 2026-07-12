@@ -5,6 +5,7 @@ backend:
   identity_url: https://auth.decapbridge.com/sites/afaed8b0-fe16-4288-9f45-fea9b40d7255
   gateway_url: https://gateway.decapbridge.com
 
+# Link do site e logo no painel (opcional)
 site_url: https://www.bejgroup.com.br
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Mídia
@@ -43,6 +44,16 @@ collections:
               - { label: "Horário semana",    name: "horario_semana",  widget: "string" }
               - { label: "Horário sábado",    name: "horario_sabado",  widget: "string" }
               - { label: "Ano de fundação",   name: "fundacao",        widget: "string" }
+
+          # RODAPÉ
+          - label: "Rodapé do Site"
+            name: "rodape"
+            widget: "object"
+            fields:
+              - { label: "Texto de apresentação (tagline)", name: "tagline", widget: "text", required: false }
+              - { label: "Instagram (link completo)", name: "instagram", widget: "string", required: false }
+              - { label: "LinkedIn (link completo)", name: "linkedin", widget: "string", required: false }
+              - { label: "Facebook (link completo)", name: "facebook", widget: "string", required: false }
 
           # HERO
           - label: "Seção Hero (Topo)"
