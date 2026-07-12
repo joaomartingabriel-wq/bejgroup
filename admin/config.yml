@@ -1,10 +1,12 @@
 backend:
-  name: github
+  name: git-gateway
   repo: joaomartingabriel-wq/bejgroup
   branch: main
-  base_url: https://bejgroup-auth.joaomartin-gabriel.workers.dev
-  auth_endpoint: /auth
+  identity_url: https://auth.decapbridge.com/sites/afaed8b0-fe16-4288-9f45-fea9b40d7255
+  gateway_url: https://gateway.decapbridge.com
 
+site_url: https://www.bejgroup.com.br
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Mídia
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
