@@ -1369,9 +1369,9 @@ footer{background:var(--black);border-top:1px solid var(--border);padding:72px 0
         </div>
         <p class="footer-tagline">Gráfica &amp; Editora premium com soluções completas para comunicar sua marca com excelência.</p>
         <div class="socials">
-          <a href="#" class="soc">ig</a>
-          <a href="#" class="soc">in</a>
-          <a href="#" class="soc">fb</a>
+          <a href="#" class="soc" id="footerInstagram" target="_blank" rel="noopener">ig</a>
+          <a href="#" class="soc" id="footerLinkedin" target="_blank" rel="noopener">in</a>
+          <a href="#" class="soc" id="footerFacebook" target="_blank" rel="noopener">fb</a>
         </div>
       </div>
       <div>
@@ -1384,11 +1384,11 @@ footer{background:var(--black);border-top:1px solid var(--border);padding:72px 0
       </div>
       <div>
         <div class="fcol-title">Contato</div>
-        <ul class="flinks"><li><a href="tel:+5551900000000">(51) 9XXXX-XXXX</a></li><li><a href="mailto:contato@bejgroup.com.br">contato@bejgroup.com.br</a></li><li><a href="https://wa.me/55519XXXXXXXX" target="_blank">WhatsApp</a></li><li>Campo Bom — RS</li></ul>
+        <ul class="flinks"><li><a href="tel:+5551900000000">(51) 9XXXX-XXXX</a></li><li><a href="mailto:contato@bejgroup.com.br">contato@bejgroup.com.br</a></li><li><a href="https://wa.me/55519XXXXXXXX" target="_blank">WhatsApp</a></li><li id="footerAddress">Campo Bom — RS</li></ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 BEJ Group. Todos os direitos reservados.</span>
+      <span>© <span id="footerYear">2026</span> BEJ Group. Todos os direitos reservados.</span>
       <div class="footer-legal">
         <a href="#" id="openPrivacy">Política de Privacidade</a>
         <a href="#" id="openTerms">Termos de Uso</a>
@@ -1628,6 +1628,7 @@ document.querySelectorAll('.faq-q').forEach(q=>{
     document.querySelectorAll('.ci-val').forEach(el => {
       if (el.textContent.includes('Campo Bom')) el.textContent = `${e.cidade} — ${e.estado}`;
     });
+    set('#footerAddress', `${e.cidade} — ${e.estado}`);
   }
   if (e.horario_semana || e.horario_sabado) {
     const ciHorario = [...document.querySelectorAll('.ci-val')]
@@ -1787,7 +1788,20 @@ document.querySelectorAll('.faq-q').forEach(q=>{
     });
   }
 
+  // ── RODAPÉ ────────────────────────────────────────────
+  const r = data.rodape || {};
+  if (r.tagline) set('.footer-tagline', r.tagline);
+  if (r.instagram) set('#footerInstagram', r.instagram, 'href');
+  if (r.linkedin) set('#footerLinkedin', r.linkedin, 'href');
+  if (r.facebook) set('#footerFacebook', r.facebook, 'href');
+
   console.log('[BEJ CMS] Dados carregados com sucesso.');
+})();
+
+/* ─── FOOTER YEAR (sempre atualizado automaticamente) ─── */
+(function(){
+  const y = document.getElementById('footerYear');
+  if (y) y.textContent = new Date().getFullYear();
 })();
 </script>
 </body>
